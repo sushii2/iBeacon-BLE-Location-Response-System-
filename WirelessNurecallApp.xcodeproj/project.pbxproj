@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		379C50D2228ED1780073DF47 /* resCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 379C50D1228ED1770073DF47 /* resCell.swift */; };
+		5E06F1A422B98F0200F768EB /* SolutionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E06F1A322B98F0200F768EB /* SolutionViewController.swift */; };
+		5E396C242266DCC000F65802 /* BeaconsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E396C232266DCC000F65802 /* BeaconsViewController.swift */; };
+		5E43FF7B226A6225000900AC /* AddBeaconVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E43FF7A226A6225000900AC /* AddBeaconVC.swift */; };
+		5E52A31A22BD366C007356D0 /* Pulsator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52A31922BD366C007356D0 /* Pulsator.swift */; };
+		5E52A31C22BD4EE4007356D0 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52A31B22BD4EE4007356D0 /* CardView.swift */; };
+		5E52A31E22BD5BC7007356D0 /* CircularProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52A31D22BD5BC7007356D0 /* CircularProgressBar.swift */; };
+		5E52A32022BD82FB007356D0 /* ScheduleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52A31F22BD82FB007356D0 /* ScheduleTableVC.swift */; };
+		5E52A32222C4161F007356D0 /* scheduleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52A32122C4161F007356D0 /* scheduleCell.swift */; };
+		5E56BC3C228B414700D3AE0D /* ResidentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56BC3B228B414700D3AE0D /* ResidentVC.swift */; };
+		5E56BC3E228B789200D3AE0D /* residentsSnapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E56BC3D228B789200D3AE0D /* residentsSnapshot.swift */; };
+		5E836D8F2268866A00CCFCC0 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836D8E2268866A00CCFCC0 /* Extensions.swift */; };
+		5E836D91226886B600CCFCC0 /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836D90226886B600CCFCC0 /* FirebaseHelper.swift */; };
+		5E836D9622688A7100CCFCC0 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836D9522688A7100CCFCC0 /* SignUpVC.swift */; };
+		5E836D982268984600CCFCC0 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836D972268984600CCFCC0 /* ProfileVC.swift */; };
+		5E836D9A2269A5A000CCFCC0 /* ReportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836D992269A5A000CCFCC0 /* ReportVC.swift */; };
+		5E836D9D2269B0F600CCFCC0 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836D9C2269B0F600CCFCC0 /* Models.swift */; };
+		5E836DA02269CA7800CCFCC0 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836D9F2269CA7800CCFCC0 /* Item.swift */; };
+		5E836DA32269CAD800CCFCC0 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E836DA22269CAD800CCFCC0 /* ItemCell.swift */; };
+		5EFEA80E22444494002AA555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEA80D22444494002AA555 /* AppDelegate.swift */; };
+		5EFEA81022444494002AA555 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEA80F22444494002AA555 /* SignInVC.swift */; };
+		5EFEA81322444494002AA555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEA81122444494002AA555 /* Main.storyboard */; };
+		5EFEA81822444496002AA555 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEA81722444496002AA555 /* Assets.xcassets */; };
+		5EFEA81B22444496002AA555 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEA81922444496002AA555 /* LaunchScreen.storyboard */; };
+		5EFEA82D22445501002AA555 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEA82C22445501002AA555 /* GoogleService-Info.plist */; };
+		DD6DCFBDD92A83023BB7DB9B /* Pods_WirelessNurecallApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D382070DC56B66C529F22BB /* Pods_WirelessNurecallApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		379C50D1228ED1770073DF47 /* resCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resCell.swift; sourceTree = "<group>"; };
+		5D382070DC56B66C529F22BB /* Pods_WirelessNurecallApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WirelessNurecallApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E06F1A322B98F0200F768EB /* SolutionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolutionViewController.swift; sourceTree = "<group>"; };
+		5E396C232266DCC000F65802 /* BeaconsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeaconsViewController.swift; sourceTree = "<group>"; };
+		5E43FF7A226A6225000900AC /* AddBeaconVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBeaconVC.swift; sourceTree = "<group>"; };
+		5E52A31922BD366C007356D0 /* Pulsator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsator.swift; sourceTree = "<group>"; };
+		5E52A31B22BD4EE4007356D0 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5E52A31D22BD5BC7007356D0 /* CircularProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressBar.swift; sourceTree = "<group>"; };
+		5E52A31F22BD82FB007356D0 /* ScheduleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableVC.swift; sourceTree = "<group>"; };
+		5E52A32122C4161F007356D0 /* scheduleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scheduleCell.swift; sourceTree = "<group>"; };
+		5E56BC3B228B414700D3AE0D /* ResidentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResidentVC.swift; sourceTree = "<group>"; };
+		5E56BC3D228B789200D3AE0D /* residentsSnapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = residentsSnapshot.swift; sourceTree = "<group>"; };
+		5E836D8E2268866A00CCFCC0 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5E836D90226886B600CCFCC0 /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		5E836D9522688A7100CCFCC0 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		5E836D972268984600CCFCC0 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		5E836D992269A5A000CCFCC0 /* ReportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportVC.swift; sourceTree = "<group>"; };
+		5E836D9C2269B0F600CCFCC0 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		5E836D9F2269CA7800CCFCC0 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		5E836DA22269CAD800CCFCC0 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		5EFEA80A22444494002AA555 /* WirelessNurecallApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WirelessNurecallApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFEA80D22444494002AA555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EFEA80F22444494002AA555 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		5EFEA81222444494002AA555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EFEA81722444496002AA555 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EFEA81A22444496002AA555 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EFEA81C22444496002AA555 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EFEA82C22445501002AA555 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		80055ED333EAFC12365CA352 /* Pods-WirelessNurecallApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessNurecallApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessNurecallApp/Pods-WirelessNurecallApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E6FCE4F7FDA9296FF74E3E19 /* Pods-WirelessNurecallApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WirelessNurecallApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-WirelessNurecallApp/Pods-WirelessNurecallApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EFEA80722444494002AA555 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6DCFBDD92A83023BB7DB9B /* Pods_WirelessNurecallApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1785C64796FC0FEFB305C4B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				80055ED333EAFC12365CA352 /* Pods-WirelessNurecallApp.debug.xcconfig */,
+				E6FCE4F7FDA9296FF74E3E19 /* Pods-WirelessNurecallApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5E836D92226886BB00CCFCC0 /* Helper Files */ = {
+			isa = PBXGroup;
+			children = (
+				5EFEA81C22444496002AA555 /* Info.plist */,
+				5EFEA82C22445501002AA555 /* GoogleService-Info.plist */,
+				5E836D90226886B600CCFCC0 /* FirebaseHelper.swift */,
+				5E836D8E2268866A00CCFCC0 /* Extensions.swift */,
+				5E56BC3D228B789200D3AE0D /* residentsSnapshot.swift */,
+				5E52A31922BD366C007356D0 /* Pulsator.swift */,
+				5E52A31B22BD4EE4007356D0 /* CardView.swift */,
+				5E52A31D22BD5BC7007356D0 /* CircularProgressBar.swift */,
+			);
+			path = "Helper Files";
+			sourceTree = "<group>";
+		};
+		5E836D93226888CE00CCFCC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E396C232266DCC000F65802 /* BeaconsViewController.swift */,
+				5EFEA80D22444494002AA555 /* AppDelegate.swift */,
+				5EFEA80F22444494002AA555 /* SignInVC.swift */,
+				5E836D9522688A7100CCFCC0 /* SignUpVC.swift */,
+				5E836D972268984600CCFCC0 /* ProfileVC.swift */,
+				5E836D992269A5A000CCFCC0 /* ReportVC.swift */,
+				5E43FF7A226A6225000900AC /* AddBeaconVC.swift */,
+				5E56BC3B228B414700D3AE0D /* ResidentVC.swift */,
+				5E06F1A322B98F0200F768EB /* SolutionViewController.swift */,
+				5E52A31F22BD82FB007356D0 /* ScheduleTableVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E836D94226888D900CCFCC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EFEA81922444496002AA555 /* LaunchScreen.storyboard */,
+				5EFEA81122444494002AA555 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5E836D9B2269B0D800CCFCC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E836D9C2269B0F600CCFCC0 /* Models.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E836D9E2269CA6100CCFCC0 /* Beacon Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5E836D9F2269CA7800CCFCC0 /* Item.swift */,
+			);
+			path = "Beacon Classes";
+			sourceTree = "<group>";
+		};
+		5E836DA12269CA9400CCFCC0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				379C50D1228ED1770073DF47 /* resCell.swift */,
+				5E836DA22269CAD800CCFCC0 /* ItemCell.swift */,
+				5E52A32122C4161F007356D0 /* scheduleCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		5EFEA80122444494002AA555 = {
+			isa = PBXGroup;
+			children = (
+				5EFEA80C22444494002AA555 /* WirelessNurecallApp */,
+				5EFEA80B22444494002AA555 /* Products */,
+				1785C64796FC0FEFB305C4B0 /* Pods */,
+				9766BDA5E3B235863B617980 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5EFEA80B22444494002AA555 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFEA80A22444494002AA555 /* WirelessNurecallApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFEA80C22444494002AA555 /* WirelessNurecallApp */ = {
+			isa = PBXGroup;
+			children = (
+				5E836D93226888CE00CCFCC0 /* Controllers */,
+				5E836DA12269CA9400CCFCC0 /* Cells */,
+				5E836D9E2269CA6100CCFCC0 /* Beacon Classes */,
+				5E836D9B2269B0D800CCFCC0 /* Model */,
+				5E836D94226888D900CCFCC0 /* Views */,
+				5E836D92226886BB00CCFCC0 /* Helper Files */,
+				5EFEA81722444496002AA555 /* Assets.xcassets */,
+			);
+			path = WirelessNurecallApp;
+			sourceTree = "<group>";
+		};
+		9766BDA5E3B235863B617980 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D382070DC56B66C529F22BB /* Pods_WirelessNurecallApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EFEA80922444494002AA555 /* WirelessNurecallApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFEA81F22444496002AA555 /* Build configuration list for PBXNativeTarget "WirelessNurecallApp" */;
+			buildPhases = (
+				300122C8E1E40911F73756D9 /* [CP] Check Pods Manifest.lock */,
+				5EFEA80622444494002AA555 /* Sources */,
+				5EFEA80722444494002AA555 /* Frameworks */,
+				5EFEA80822444494002AA555 /* Resources */,
+				404BB30CB4953027D6A2BEF7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WirelessNurecallApp;
+			productName = WirelessNurecallApp;
+			productReference = 5EFEA80A22444494002AA555 /* WirelessNurecallApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EFEA80222444494002AA555 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Saksham;
+				TargetAttributes = {
+					5EFEA80922444494002AA555 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 5EFEA80522444494002AA555 /* Build configuration list for PBXProject "WirelessNurecallApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EFEA80122444494002AA555;
+			productRefGroup = 5EFEA80B22444494002AA555 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EFEA80922444494002AA555 /* WirelessNurecallApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EFEA80822444494002AA555 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFEA81B22444496002AA555 /* LaunchScreen.storyboard in Resources */,
+				5EFEA82D22445501002AA555 /* GoogleService-Info.plist in Resources */,
+				5EFEA81822444496002AA555 /* Assets.xcassets in Resources */,
+				5EFEA81322444494002AA555 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		300122C8E1E40911F73756D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WirelessNurecallApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404BB30CB4953027D6A2BEF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-WirelessNurecallApp/Pods-WirelessNurecallApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyAvatar/SwiftyAvatar.framework",
+				"${BUILT_PRODUCTS_DIR}/TextFieldEffects/TextFieldEffects.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyAvatar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TextFieldEffects.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WirelessNurecallApp/Pods-WirelessNurecallApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFEA80622444494002AA555 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E836D8F2268866A00CCFCC0 /* Extensions.swift in Sources */,
+				5E56BC3C228B414700D3AE0D /* ResidentVC.swift in Sources */,
+				5E52A32022BD82FB007356D0 /* ScheduleTableVC.swift in Sources */,
+				5E836D9D2269B0F600CCFCC0 /* Models.swift in Sources */,
+				5E52A31E22BD5BC7007356D0 /* CircularProgressBar.swift in Sources */,
+				5E06F1A422B98F0200F768EB /* SolutionViewController.swift in Sources */,
+				5E56BC3E228B789200D3AE0D /* residentsSnapshot.swift in Sources */,
+				5E836D91226886B600CCFCC0 /* FirebaseHelper.swift in Sources */,
+				379C50D2228ED1780073DF47 /* resCell.swift in Sources */,
+				5E396C242266DCC000F65802 /* BeaconsViewController.swift in Sources */,
+				5E836D9A2269A5A000CCFCC0 /* ReportVC.swift in Sources */,
+				5E836DA02269CA7800CCFCC0 /* Item.swift in Sources */,
+				5E52A31C22BD4EE4007356D0 /* CardView.swift in Sources */,
+				5E43FF7B226A6225000900AC /* AddBeaconVC.swift in Sources */,
+				5EFEA81022444494002AA555 /* SignInVC.swift in Sources */,
+				5E52A31A22BD366C007356D0 /* Pulsator.swift in Sources */,
+				5E836DA32269CAD800CCFCC0 /* ItemCell.swift in Sources */,
+				5EFEA80E22444494002AA555 /* AppDelegate.swift in Sources */,
+				5E836D9622688A7100CCFCC0 /* SignUpVC.swift in Sources */,
+				5E52A32222C4161F007356D0 /* scheduleCell.swift in Sources */,
+				5E836D982268984600CCFCC0 /* ProfileVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EFEA81122444494002AA555 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFEA81222444494002AA555 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EFEA81922444496002AA555 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFEA81A22444496002AA555 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EFEA81D22444496002AA555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5EFEA81E22444496002AA555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFEA82022444496002AA555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80055ED333EAFC12365CA352 /* Pods-WirelessNurecallApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ98P253V4;
+				GCC_OPTIMIZATION_LEVEL = s;
+				INFOPLIST_FILE = "$(SRCROOT)/WirelessNurecallApp/Helper Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saksham.WirelessNurecallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EFEA82122444496002AA555 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6FCE4F7FDA9296FF74E3E19 /* Pods-WirelessNurecallApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HJ98P253V4;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				INFOPLIST_FILE = "$(SRCROOT)/WirelessNurecallApp/Helper Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saksham.WirelessNurecallApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EFEA80522444494002AA555 /* Build configuration list for PBXProject "WirelessNurecallApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFEA81D22444496002AA555 /* Debug */,
+				5EFEA81E22444496002AA555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFEA81F22444496002AA555 /* Build configuration list for PBXNativeTarget "WirelessNurecallApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFEA82022444496002AA555 /* Debug */,
+				5EFEA82122444496002AA555 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EFEA80222444494002AA555 /* Project object */;
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>66350199410-m3eaq8d32qobgs8eo13i6jrgaf3efssi.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.66350199410-m3eaq8d32qobgs8eo13i6jrgaf3efssi</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBl3P3pm62iYOd2h_0oLvKeqYo_WWcpl7U</string>
+	<key>GCM_SENDER_ID</key>
+	<string>66350199410</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Saksham.WirelessNurecallApp</string>
+	<key>PROJECT_ID</key>
+	<string>wirelessnursecallsystems</string>
+	<key>STORAGE_BUCKET</key>
+	<string>wirelessnursecallsystems.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:66350199410:ios:67935e8ff1d60c9a</string>
+	<key>DATABASE_URL</key>
+	<string>https://wirelessnursecallsystems.firebaseio.com</string>
+</dict>
+</plist>

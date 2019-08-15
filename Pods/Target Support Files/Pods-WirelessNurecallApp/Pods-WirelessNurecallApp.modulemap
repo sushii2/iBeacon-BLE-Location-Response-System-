@@ -1,0 +1,6 @@
+framework module Pods_WirelessNurecallApp {
+  umbrella header "Pods-WirelessNurecallApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
